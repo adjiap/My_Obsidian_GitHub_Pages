@@ -12,11 +12,10 @@ tags:
 ---
 
 ---
-[^1]
 > [!tip]
 > `nmap` in general should be run as a `poweruser` because then it doesn't need to have to wait for the RST signal that comes from a closed port made during the [[Transmission Control Protocol|TCP 3-Way Handshake]]
 
-# Main `nmap` scanning techniques:
+# Main `nmap` scanning techniques:[^1]
 ```sh
  -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
  -sU: UDP Scan

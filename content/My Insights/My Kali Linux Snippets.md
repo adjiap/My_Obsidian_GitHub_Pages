@@ -19,7 +19,7 @@ tags:
 ## Download and implement Kali-Linux image
 You can download the Kali-Linux image for virtual box [here](https://www.kali.org/get-kali/#kali-platforms) , extract the Zip file, and add it to the Virtual Box. Btw, the default user as well as password would be `kali`
 
-![[Add_KaliLinux_to_VirtualBox.png]]
+![[images/Add_KaliLinux_to_VirtualBox.png]]
 
 ## Update Kali-Linux packages
 It's likely that the Kali-Linux has outdated packages, and also, if you're behind a proxy, you would need to update the sources file, so do this

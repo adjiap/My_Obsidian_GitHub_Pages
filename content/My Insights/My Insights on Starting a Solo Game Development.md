@@ -118,14 +118,14 @@ The best way to choose, is to actually try the game engines, and see which one d
    Unity is with C#, Unreal is C++ (although Visual Scripting with Blueprint is supported), Godot has GDScript (similar to Python) 
 4. The community
 5. The type of game you want to make.  
-   ![[Game_Engines_Based_on_Games_you_Make.png|700]]
+   ![[images/Game_Engines_Based_on_Games_you_Make.png|700]]
 
 > [!tip] Tips for Unity
 > - Apply Fast Script Reload asset to make opening projects and compiling faster
 > - Choose the [[graphics pipeline]] WISELY, it will be difficult for you to switch afterwards. (Choices are: universal render pipeline, high definition render pipeline, built-in)
 
 ### Diagrams of game engines with their export options
-![[Diagrams_of_game_engines_and_their_export_options.png]]
+![[images/Diagrams_of_game_engines_and_their_export_options.png]]
 ## Planning Tips to avoid being stuck in Prototyping and Production [^5]
 
 > [!note]
@@ -161,9 +161,9 @@ Feedback here, most of the time will be coming from QA Testers regarding the bug
   ![[forteBuildingSecondBrain2022#Illustration of divergence and convergence thinking in creative process, with CODE]]
   
 ### Difference of effort between Prototyping and Production
-![[Prototyping_Effort_vs_Production_Effort.png]]
+![[images/Prototyping_Effort_vs_Production_Effort.png]]
 ### Ideal Protoyping and Production effort
-![[Ideal_prototyping_and_production_effort.png]]
+![[images/Ideal_prototyping_and_production_effort.png]]
 ## FAQ for Prototyping vs Production[^5]
 ### 1. What if your content needs lots of content to prototype?
 e.g. Stardew Valley?
@@ -179,7 +179,9 @@ When you switch to production, you should be focusing more on content. So that m
 
 
 ---
-# References
+# See also
+[[My Insights on Team-based Game Development]]
+
 [^1]: [6 Key Stages of Game Development](https://kevurugames.com/blog/6-key-stages-of-game-development-from-concept-to-standing-ovation/)
 [^2]: [choosing a game engine is easy, actually](https://www.youtube.com/watch?v=aMgB018o71U)
 [^3]: [7 Tips from a Solo Dev](https://youtu.be/X_76ITqA22s?si=pZr7BdPVk1_3vCmn)
@@ -187,6 +189,3 @@ When you switch to production, you should be focusing more on content. So that m
 [^5]: [How to PLAN your Game as a Solo Developer](https://www.youtube.com/watch?v=NsMHicoZTzQ)
 [^6]: [Ultimate Indie Gamedev Genre Tierlist](https://www.youtube.com/watch?v=Yg8wig1LTtE)
 [^7]: [Roadmap to becoming a GameDev](https://youtu.be/6cU3ru8NSWQ)
-
-# See also
-[[My Insights on Team-based Game Development]]

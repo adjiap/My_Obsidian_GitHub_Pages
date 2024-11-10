@@ -10,8 +10,7 @@ tags:
 ---
 
 ---
-[^1]
-# General
+# General[^1]
 ## Finding the line from a file
 ```sh
 # I want to find "DELETE" in a web log

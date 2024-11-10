@@ -11,8 +11,7 @@ tags:
 
 ---
 # Setup on Windows
-## Enabling WSL
-%% $^3$ $^4$ %%
+## Enabling WSL[^3][^4]
 ```powershell
 # As Admin
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -21,8 +20,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 # If you want to know which are installed
 # dism.exe /online /Get-Features
 ```
-## WSL install Ubuntu
-%% $^1$ %%
+## WSL install Ubuntu[^1]
 ```powershell
 # To check which distro exists, use the following
 # `wsl -l --online`
@@ -36,8 +34,7 @@ wsl -d Ubuntu
 # Then create username and password if it doesn't exist yet
 ```
 
-## WSL Install a 2nd Ubuntu
-%% $^5$ %%
+## WSL Install a 2nd Ubuntu[^5]
 > [!info]
 > This might be useful, if you want to have a separate workstation for something else
 
@@ -51,8 +48,7 @@ wsl --import Ubuntu-2 "C:\Users\MyName\This\Is\Install\Folder" .\temp_ubuntuback
 # Enter the second Ubuntu
 wsl -d Ubuntu-2
 ```
-### Find the Distros installed in WSL
-%% $^6$ %%
+### Find the Distros installed in WSL[^6]
 ```powershell
 Get-ChildItem "HKCU:\Software\Microsoft\Windows\CurrentVersion\Lxss" -Recurse
 ```
@@ -82,8 +78,7 @@ wsl -d Ubuntu-2
 # This will remove the installed WSL environment of the kali-linux distro 
 wsl --unregister kali-linux
 ```
-# Prep virtual Linux with remote desktop GUI
-%% $^1$ %%
+# Prep virtual Linux with remote desktop GUI[^1]
 ```sh
 # Update distro
 sudo apt update
@@ -100,8 +95,7 @@ ifconfig
 # Then RDP into the Linux session using the IP address
 ```
 
-# Adding Directory to a Path to Linux
-%% $^2$ %%
+# Adding Directory to a Path to Linux[^2]
 ## Temporarily
 ```sh
 export PATH="/Directory1:$PATH"
@@ -121,13 +115,9 @@ FROM "01_Atomic_Notes" AND (#linux AND #codesnippet)
 
 
 ---
- $^1$ [Kali Linux: WSL 2 install and GUI setup (youtube.com)](https://www.youtube.com/watch?v=oTD8cYluUgk&list=PLhfrWIlLOoKNMHhB39bh3XBpoLxV3f0V9&index=5&ab_channel=DavidBombal)
- $^2$ [Linux: Add a Directory to PATH {Temporarily or Permanently} (phoenixnap.com)](https://phoenixnap.com/kb/linux-add-to-path)
-  $^3$ https://learn.microsoft.com/en-us/windows/wsl/install-manual
- 
- $^4$ https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism?view=windows-11
- 
- $^5$ https://learn.microsoft.com/en-us/windows/wsl/basic-commands
- 
- $^6$ https://askubuntu.com/a/1380274
-
+[^1]: [Kali Linux: WSL 2 install and GUI setup (youtube.com)](https://www.youtube.com/watch?v=oTD8cYluUgk&list=PLhfrWIlLOoKNMHhB39bh3XBpoLxV3f0V9&index=5&ab_channel=DavidBombal)
+[^2]: [Linux: Add a Directory to PATH {Temporarily or Permanently} (phoenixnap.com)](https://phoenixnap.com/kb/linux-add-to-path)
+[^3]: https://learn.microsoft.com/en-us/windows/wsl/install-manual
+[^4]: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/enable-or-disable-windows-features-using-dism?view=windows-11
+[^5]: https://learn.microsoft.com/en-us/windows/wsl/basic-commands
+[^6]: https://askubuntu.com/a/1380274
